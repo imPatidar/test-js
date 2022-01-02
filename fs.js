@@ -48,3 +48,7 @@ const totalColorCount = arr.reduce((acc, cur) => {
 }, {})
 
 console.log(totalColorCount)
+
+//Every in JS
+const allBlackColor = arr.every((data) => data.color === "black")
+console.log(allBlackColor)
